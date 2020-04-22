@@ -12,4 +12,20 @@ package daw.sandrabazan;
 public class Persona {
     // Atributos
     private String nombre, apellidos, nif;
+
+    // Constructor parametrizado
+    public Persona(String nombre, String apellidos, String nif) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.nif = nif;
+    }
+
+    // Constructor por defecto
+    public Persona() {
+        this.nombre = "Pepe";
+        this.apellidos = "Navarro";
+        this.nif = "11223344N";
+    }
+    
+    
 }
